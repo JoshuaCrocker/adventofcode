@@ -1,4 +1,4 @@
-const occurrences = require("./occurrences");
+const occurrences = require('./occurrences');
 
 test('it can determine if there are no occurrences', () => {
     const string = 'abcde';

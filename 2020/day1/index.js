@@ -9,7 +9,7 @@ const input = new readlines(inputPath);
 const data = [];
 
 let line;
-while (line = input.next()) {
+while ((line = input.next())) {
     data.push(parseInt(line.toString('utf8')));
 }
 

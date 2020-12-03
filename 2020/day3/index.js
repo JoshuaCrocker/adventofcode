@@ -13,11 +13,11 @@ const r1d2 = day3(data, 1, 2);
 
 const results = {
     'Part 1': r3d1,
-    'r1d1': r1d1,
-    'r3d1': r3d1,
-    'r5d1': r5d1,
-    'r7d1': r7d1,
-    'r1d2': r1d2,
+    r1d1: r1d1,
+    r3d1: r3d1,
+    r5d1: r5d1,
+    r7d1: r7d1,
+    r1d2: r1d2,
     'Part 2': r1d1 * r3d1 * r5d1 * r7d1 * r1d2,
 };
 

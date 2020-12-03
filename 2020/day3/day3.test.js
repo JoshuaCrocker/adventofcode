@@ -1,6 +1,6 @@
 const path = require('path');
 const readInput = require('../../common/readInput');
-const day3 = require("./day3");
+const day3 = require('./day3');
 
 test('it can calulate the answer', () => {
     const inputPath = path.join(__dirname, 'testdata.txt');

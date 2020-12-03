@@ -1,5 +1,4 @@
-const day2b = require("./day2b");
-
+const day2b = require('./day2b');
 
 describe('it can determine valid passwords', () => {
     test('case 1', () => {
@@ -8,7 +7,7 @@ describe('it can determine valid passwords', () => {
 
         expect(day2b(rule, password)).toBe(true);
     });
-    
+
     test('case 2', () => {
         const rule = '2-9 c';
         const password = 'abdefghic';
